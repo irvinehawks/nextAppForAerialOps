@@ -10,8 +10,10 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
+model Form {
   id String @id @default(auto()) @map("_id") @db.ObjectId
   // Other fields
+
+
 }
 
